@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+
+    <form action="Registration.php" method="Post" enctype="" style=" width: 700px; ">
+        <fieldset style="width: 50%;" >
+            <legend>REGISTRATION</legend>
+            <table style="width: 100%;">
+                <tr >
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        : <input type="text" name="Name" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email
+                    </td>
+                    <td>
+                        : <input type="email" name="Email" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        UserName
+                    </td>
+                    <td>
+                        : <input type="text" name="UserName" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        : <input type="password" name="Password" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Confirm Password
+                    </td>
+                    <td>
+                        : <input type="password" name="ConfirmPassword" id="">
+                    </td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+                <input type="radio" name="Gender" value="Other">Other
+            </fieldset>
+            <fieldset>
+                <legend>Date of Birth</legend>
+                <input type="date" name="dob" id="">
+            </fieldset>
+            <hr>
+            <input type="Submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
